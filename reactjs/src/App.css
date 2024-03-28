@@ -5,12 +5,18 @@
     position: relative;
     overflow: hidden;
     width: 400px;
-    max-width: 90%;
+    max-width: 100%;
     min-height: 430px;
     display: flex; 
     justify-content: center; 
     align-items: center; 
 
+}
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        max-width: none; 
+    }
 }
 
 .container p{
